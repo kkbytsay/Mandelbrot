@@ -129,3 +129,9 @@ canvas {
   left: 0;
   border: 1px solid #000000;
 }
+
+.renderbtn {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
