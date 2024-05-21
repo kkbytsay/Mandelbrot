@@ -42,6 +42,7 @@ function renderFractal() {
   // Check browser support
   if (canvas.getContext) {
     const ctx = canvas.getContext("2d");
+    ctx.clearRect(0, 0, 1900, 1000);
     ctx.fillStyle = "#c71f1f";
 
     //draw apexs of triangle
